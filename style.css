@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Simple and clean font */
+    background-color: #f4f4f4; /* Light grey background for a soft look */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff; /* White background for content */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #0077cc; /* Calming blue for header text */
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #555; /* Softer grey for introductory text */
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 1.8rem;
+    color: #0077cc;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Moods Section */
+.moods {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.moods div {
+    text-align: center;
+    margin: 10px;
+}
+
+.moods img {
+    width: 150px;
+    height: 150px; /* Same size for all images */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ddd; /* Simple border */
+    object-fit: cover; /* Ensures the images fit nicely */
+}
+
+.moods p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #0077cc;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 1rem;
+}
